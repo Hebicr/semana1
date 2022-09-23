@@ -131,23 +131,23 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\Progra6Model.Context.cs">
+    <Compile Include="Models\Progra6.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Progra6Model.Context.tt</DependentUpon>
+      <DependentUpon>Progra6.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\Progra6Model.cs">
+    <Compile Include="Models\Progra6.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Progra6Model.tt</DependentUpon>
+      <DependentUpon>Progra6.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\Progra6Model.Designer.cs">
+    <Compile Include="Models\Progra6.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>Progra6Model.edmx</DependentUpon>
+      <DependentUpon>Progra6.edmx</DependentUpon>
     </Compile>
     <Compile Include="Models\user.cs">
-      <DependentUpon>Progra6Model.tt</DependentUpon>
+      <DependentUpon>Progra6.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -160,24 +160,24 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Models\Progra6Model.Context.tt">
+    <Content Include="Models\Progra6.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Progra6Model.Context.cs</LastGenOutput>
-      <DependentUpon>Progra6Model.edmx</DependentUpon>
+      <DependentUpon>Progra6.edmx</DependentUpon>
+      <LastGenOutput>Progra6.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Models\Progra6Model.tt">
+    <Content Include="Models\Progra6.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>Progra6Model.edmx</DependentUpon>
-      <LastGenOutput>Progra6Model.cs</LastGenOutput>
+      <DependentUpon>Progra6.edmx</DependentUpon>
+      <LastGenOutput>Progra6.cs</LastGenOutput>
     </Content>
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <EntityDeploy Include="Models\Progra6Model.edmx">
+    <EntityDeploy Include="Models\Progra6.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>Progra6Model.Designer.cs</LastGenOutput>
+      <LastGenOutput>Progra6.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <Content Include="Models\Progra6Model.edmx.diagram">
-      <DependentUpon>Progra6Model.edmx</DependentUpon>
+    <Content Include="Models\Progra6.edmx.diagram">
+      <DependentUpon>Progra6.edmx</DependentUpon>
     </Content>
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />

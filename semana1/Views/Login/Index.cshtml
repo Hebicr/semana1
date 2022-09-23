@@ -10,7 +10,7 @@
         <input type="text" name="usuario" />
         Password
         <input type="password" name="password" />
-        <input type="button" class="btn btn-success" value="Login" />
+        <input type="submit" class="btn btn-success" value="Login" />
     </div>
 </form>
 
@@ -26,6 +26,8 @@
             $.post(url, parametros, function (data) {
                 if (data == "1") {
                     document.location.href = "@Url.Content("~/")"
+                } else {
+                    alert(data);
                 }
             });
         });

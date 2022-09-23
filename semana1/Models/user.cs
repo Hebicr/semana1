@@ -15,7 +15,9 @@ namespace semana1.Models
     public partial class user
     {
         public int id { get; set; }
-        public string user1 { get; set; }
+        public string usuario { get; set; }
         public string pass { get; set; }
+        public string email { get; set; }
+        public string activo { get; set; }
     }
 }
